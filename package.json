@@ -1,11 +1,16 @@
 {
-  "name": "ad-starketkit",
-  "version": "1.0.1",
+  "name": "ad-starterkit",
+  "version": "1.0.2",
   "description": "ad-starterkit allow developer to get MERN combination  boilerplates directly from this universal package",
   "main": "server.js",
+  "bin": "server.js",
   "scripts": {
     "test": "npm run test",
     "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hafizadil123/ad-starterkit"
   },
   "keywords": [
     "generator",
