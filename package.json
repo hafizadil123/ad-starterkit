@@ -1,0 +1,22 @@
+{
+  "name": "ad-starketkit",
+  "version": "1.0.0",
+  "description": "ad-starterkit allow developer to get MERN combination  boilerplates directly from this universal package",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "generator",
+    "mongodb",
+    "react",
+    "node",
+    "postgress"
+  ],
+  "author": "Adil Sikandar",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.2"
+  }
+}
