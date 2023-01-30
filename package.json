@@ -1,6 +1,6 @@
 {
   "name": "ad-starterkit",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "ad-starterkit allow developer to get MERN combination  boilerplates directly from this universal package",
   "main": "server.js",
   "bin": "server.js",
