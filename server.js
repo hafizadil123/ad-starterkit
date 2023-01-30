@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 const inquirer = require('inquirer');
+const { progressBar } =  require('./utils/progressBar')
 
 const fs = require('fs');
 
@@ -33,6 +34,7 @@ inquirer.prompt(questions).then(answers => {
 
     fs.mkdirSync(`${CURR_DIR}/${projectName}`);
     createDirectoryContents(templatePath, projectName);
+    progressBar(projectName)
 });
 
 function createDirectoryContents (templatePath, newProjectPath) {

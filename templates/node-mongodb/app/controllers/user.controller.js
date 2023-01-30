@@ -2,11 +2,6 @@ import BaseController from './base.controller';
 class UsersController extends BaseController {
 	whitelist = [
 	  'firstName',
-	  'lastName',
-	  'email',
-	  'password',
-	  'phoneNumber',
-	  'profilePic',
 	  'role',
 	];
 

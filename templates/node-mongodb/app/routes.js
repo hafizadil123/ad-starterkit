@@ -7,7 +7,7 @@ const routes = new Router();
 
 // Users
 routes.post('/api/users/register', UsersController.register);
-routes.post('/api/users/register', UsersController.login);
+routes.post('/api/users/login', UsersController.login);
 
 routes.use(errorHandler);
 

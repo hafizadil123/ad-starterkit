@@ -7,33 +7,10 @@ const userSchema = new Schema({
 		type: String,
 		required: [ true, 'First name is required' ]
 	},
-	lastName: {
-		type: String,
-		required: [ true, 'Last name is required' ]
-	},
-	phoneNumber: {
-		type: String,
-		unique: true,
-		required: [ true, 'Phone number is required' ]
-	},
-	email: {
-		type: String,
-		trim: true,
-		lowercase: true,
-		unique: true,
-		required: [ true, 'Email is required' ]
-	},
-	password: {
-		type: String,
-		required: [ true, 'Password is required' ]
-	},
-	profilePic: {
-		type: String
-	},
-
+	// Define roles as many you want here
 	role: {
 		type: String,
-		enum: [ 'user', 'admin', 'family', 'designated' ],
+		enum: [ 'user', 'admin'],
 		default: 'user'
 	},
 
