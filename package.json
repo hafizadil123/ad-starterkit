@@ -7,7 +7,7 @@
   "scripts": {
     "test": "npm run test",
     "start": "node server.js",
-    "lint": "eslint --config .eslintrc.json . --fix"
+    "lint": "eslint --config .eslintrc.json '**/*.{js}' --fix"
   },
   "husky": {
     "hooks": {
