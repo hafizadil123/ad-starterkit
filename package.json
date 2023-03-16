@@ -7,7 +7,7 @@
   "scripts": {
     "test": "npm run test",
     "start": "node server.js",
-    "lint": "eslint server.js"
+    "lint": "eslint --config .eslintrc.json ./*.js"
   },
   "husky": {
     "hooks": {
@@ -32,7 +32,8 @@
     "cli-progress": "^3.11.2",
     "eslint": "^8.36.0",
     "inquirer": "^8.2.2",
-    "log-cli": "^1.0.0"
+    "log-cli": "^1.0.0",
+    "standard": "^17.0.0"
   },
   "devDependencies": {
     "husky": "^8.0.3"
