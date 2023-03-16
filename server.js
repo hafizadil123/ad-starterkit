@@ -37,6 +37,7 @@ inquirer.prompt(questions).then(answers => {
     progressBar(projectName)
 });
 
+
 function createDirectoryContents (templatePath, newProjectPath) {
     const filesToCreate = fs.readdirSync(templatePath);
   
